@@ -1,0 +1,59 @@
+\bsfrestore{0}{0}{0}{3}
+\begin{frame}{Runs removed from List}
+    \begin{columns}
+        \begin{column}{0.5 \linewidth}
+            \scriptsize \textbf{Problematic Runs in 2023 RunList}
+            \begin{itemize}
+                \setlength\itemsep{-0.1em}
+                \scriptsize
+                \item 11214 - 0 Lumi
+            \end{itemize}
+            \textbf{High Gain Events}
+            \begin{itemize}
+                \setlength\itemsep{-0.05em}
+                \scriptsize
+                \item 10417
+                \item 10419
+                \item 10422
+                \item 10424
+                \item 10426
+                \item 10443
+                \item 10526
+                \item 10538
+                \item 11461
+                \item 11463
+                \item 11471
+                \item 11478
+                \item 11480
+                \item 11486
+                \item 11488
+                \item 11491
+                \item 11504
+                \item 11506
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \scriptsize \textbf{Problematic Runs in 2024 RunList}
+            \begin{itemize}
+                \scriptsize
+                \item 16851 - Empty EOS directory
+                \item 16852 - Empty EOS directory
+                \item Others highlighted in Yield Plots
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\bsfrestore{0}{0}{0}{37}
+\begin{frame}{Some other Links}
+    \begin{itemize}
+        \item Link to Detailed Comparison Plots [\href{https://github.com/Pawan-Johnson/DQFollowUp_PPT/blob/main/build/main.pdf}{Link}]
+        \item Link to Previous Talk [\href{https://indico.cern.ch/event/1488927/}{Link}]
+        % \item Link to Faser-
+    \end{itemize}
+
+\end{frame}
+
+\bsfrestoresection{0}{42}
+\bsfrestorepart{0}{43}
+\endinput

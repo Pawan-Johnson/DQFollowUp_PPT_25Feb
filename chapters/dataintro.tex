@@ -1,0 +1,113 @@
+\begin{frame}{Recap on Previous Talk}
+    \begin{itemize}
+        \small
+        \item Main take away from the previous talk are [\href{https://indico.cern.ch/event/1488927/}{Link to talk}]
+        \item Most variables showed discrepancies between 2023 and 2024
+        \begin{itemize}
+            \item Track Positions
+            \begin{itemize}
+                \item More centrally distributed in 2024 data
+                \item Y-Position shifted in accordance with the beam angle
+            \end{itemize}
+            \item Track Momenta and Charges
+            \begin{itemize}
+                \item Much higher positively charged high momenta tracks
+                \item Difference in background between 2023 and 2024.
+            \end{itemize}
+            \item Track Parameters showed disagreement
+            \begin{itemize}
+                \item Lower Track $\chi^2$ in 2024 data.
+                \item Could come from higher track momenta in 2024
+                \item Other parameters like longTracks were also affected
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}    
+\end{frame}
+
+
+\begin{frame}{Data Specification}
+    \begin{itemize}
+        \item 2023 data can be found in the directory
+        \begin{itemize}
+            \item \href{/eos/experiment/faser/phys/2023/p0010}{/eos/experiment/faser/phys/2023/p0010}
+        \end{itemize}
+        \item 2024 data can be found in the directories
+        \begin{itemize}
+            \item \href{/eos/experiment/faser/phys/2024/p0011, p0012}{/eos/experiment/faser/phys/2024/p0011, p0012}
+            % \item \href{/eos/experiment/faser/phys/2024/p0012}{/eos/experiment/faser/phys/2024/p0012}
+        \end{itemize}
+        \item The runlist (luminosities) used are from:
+        \href{/afs/cern.ch/user/t/torrence/public/faser/runlist/2024/faser runlist 2024 stable.csv}{/afs/cern.ch/user/t/torrence/public/faser/runlist/}
+        \item Some runs excluded from above list [in Backup]
+        \item BCID cut has been applied to the  2023 data
+        \item BCID cut has been partially applied to the 2024 data
+        \begin{itemize}
+            \item p0012 data has the BCID cut applied
+            \item p0011 data does not have the BCID cut applied
+        \end{itemize}
+    \end{itemize}
+    
+    {\scriptsize \textbf{Note}: The 2024 data is split into two parts due to possible issues in decoding the LHC Fill Pattern. The data in p0011 has issues with the distanceToCollidingBCID.}
+\end{frame}
+
+\begin{subframe}{Runs removed from List}
+    \begin{columns}
+        \begin{column}{0.5 \linewidth}
+            \scriptsize \textbf{Problematic Runs in 2023 RunList}
+            \begin{itemize}
+                \setlength\itemsep{-0.1em}
+                \scriptsize
+                \item 11214 - 0 Lumi
+            \end{itemize}
+            \textbf{High Gain Events}
+            \begin{itemize}
+                \setlength\itemsep{-0.05em}
+                \scriptsize
+                \item 10417 
+                \item 10419 
+                \item 10422 
+                \item 10424 
+                \item 10426 
+                \item 10443 
+                \item 10526 
+                \item 10538 
+                \item 11461 
+                \item 11463 
+                \item 11471 
+                \item 11478 
+                \item 11480 
+                \item 11486 
+                \item 11488 
+                \item 11491 
+                \item 11504 
+                \item 11506 
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \scriptsize \textbf{Problematic Runs in 2024 RunList}
+            \begin{itemize}
+                \scriptsize
+                \item 16851 - Empty EOS directory
+                \item 16852 - Empty EOS directory
+                \item Others highlighted in Yield Plots
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{subframe}
+
+
+\begin{frame}{Introduction}
+    \textbf{Objectives of this Follow up:}
+    \begin{itemize}
+        \item Module Level Analysis
+        \item[] - Look at the DQ checks at the module level
+        \item Runwise Analysis for 2024 runs
+        \item[] - Look at each run-period in 2024 to identify any issues
+        \item Binned Momentum Analysis
+        \item[] - Looking at the data binned by momenta 
+        \item[] - Should elevate any momenta-based-differences between the years
+        \item Reweighed Analysis
+        \item[] - Reweighing the 2024 data to match the 2023 momenta
+        \item[] - Should make the data more comparable
+    \end{itemize}
+\end{frame}

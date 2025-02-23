@@ -1,0 +1,115 @@
+\begin{frame}{Reweighing 2024 data based on Momenta}
+    \begin{itemize}
+        \item The disagreement between 2023 and 2024 data is not ideal
+        \item Ideally could be traced down to the difference in momentum distribution (background) between the years
+        \item Idea is to scale down the 2024 data to match the 2023 data in terms of momentum distribution
+        \item This Reweighing should lift the agreement between the two years
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Track Momenta Reweighed}
+    \begin{columns}
+        \begin{column}{0.5\linewidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{./ReweighedPlots/Track_p0_ratio.pdf}
+                \caption{Track Momenta across years}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{./ReweighedPlots/Track_p0_Reweighted.pdf}
+                \caption{Track Momenta across years Reweighed}
+            \end{figure}
+        \end{column}
+    \end{columns}
+    \begin{itemize}
+        \item Reweighing brings the two distributions to an almost exact agreement
+        \item This should make the other parameters agree better
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Track Parameters Reweighed}
+    \begin{columns}
+        \begin{column}{0.5\linewidth}
+            \vspace{-0.45cm}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{./ReweighedPlots/Track_Chi2_Reweighted.pdf}
+                \caption{Track Chi2 across years}
+            \end{figure}
+            \vspace{-0.9cm}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{./ReweighedPlots/Track_nDoF_Reweighted.pdf}
+                \caption{Track nDoF across years}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \vspace{-0.45cm}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{./ReweighedPlots/Track_Chi2perDoF_Reweighted.pdf}
+                \caption{Track Chi2 across years}
+            \end{figure}
+            \vspace{-0.9cm}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{./ReweighedPlots/Track_charge_Reweighted.pdf}
+                \caption{Track Charge across years}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Track Positions/Angles Reweighed}
+    \begin{columns}
+        \begin{column}{0.5\linewidth}
+            \vspace{-0.4cm}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{./ReweighedPlots/Track_x0_Reweighted.pdf}
+                \caption{Track X-Position across years}
+            \end{figure}
+            \vspace{-1cm}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{./ReweighedPlots/Track_ThetaX_0_Reweighted.pdf}
+                \caption{Track X-Angle across years}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.5\linewidth}
+            \vspace{-0.4cm}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{./ReweighedPlots/Track_y0_Reweighted.pdf}
+                \caption{Track Y-Position across years}
+            \end{figure}
+            \vspace{-1cm}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{./ReweighedPlots/Track_ThetaY_0_Reweighted.pdf}
+                \caption{Track Y-Angle across years}
+            \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}{Conclusions}
+    \begin{itemize}
+        \item Module Level Analysis
+        \begin{itemize}
+            \item Agreement between 2023 and 2024 data is not ideal 
+            \item[] - expected due to background differences between the years
+            \item Agreement between modules for a given year is also not good 
+            \item[] - different in momentum distribution between modules
+        \end{itemize}
+        \item 2024 Run Splits
+        \begin{itemize}
+            \item p0011 data has issues with BCID variables
+            \item Yeilds look good. Outliers runs have been identified. \href{https://docs.google.com/spreadsheets/d/1nnYFcmhVieSHI5XAVhPiW1K6CoGYGxv2YPchwL0sqH4/edit?usp=sharing}{[Sheet]}
+            \item Good agreement of parameters between splits
+        \end{itemize}
+        \item Binned Momentum Analysis
+        \begin{itemize}
+            \item Better but not ideal agreement between 2023 and 2024 data
+            \item Possibly from the difference in Momenta-dist. at each bin
+        \end{itemize}
+        \item Reweighed Analysis
+        \begin{itemize}
+            \item Reweighing the 2024 data based on momenta brings the Momenta between two years to an almost exact agreement
+            \item Not reflected in the other Track parameters
+        \end{itemize}
+    \end{itemize}
+\end{frame}

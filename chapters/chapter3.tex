@@ -1,0 +1,229 @@
+\begin{frame}{Binned Momentum Analysis}
+    \begin{itemize}
+        \item Much of the variation in the track variables between 2023 and 2024 data can be attributed to the difference in the momentum distribution.
+        \item To get a more equitable comparison between 2023 and 2024 data, we binned the data by momentum.
+        \item Split the momenta into bins in units of MeV
+        \begin{itemize}
+            \item Bin 0 :\ \ \ \ \   [ 0, 20e3 ]
+            \item Bins 1-4 : [ 20e3, 40e3, 60e3, 80e3, 100e3 ]
+            \item Bins 5-9 :   [ 100e3, 200e3, 400e3, 600e3, 800e3, 1000e3 ]
+            \item Bin 10 : \ \ [ 1000e3, 20e6 ]
+        \end{itemize}
+    \end{itemize}
+    \vspace{0.8cm}
+    \small{    
+        Note: Again, 10 bins across 2 year = 20 Histograms \\
+        Detailed comparison plots in Backup.
+    }
+\end{frame}
+
+\newcommand{\makebinnedframes}[4]{
+    % \newcommand{\title_text}{#2}
+    % \begin{frame}{Distribution of #2 for all Momenta}
+    %     \newcommand{\colname}{#1}
+    %     \begin{figure}
+    %         \includegraphics[width=0.8\textwidth]{ColumnPlots/\colname_ratio.pdf}
+    %         \caption{Distribution of #2 for all Momenta between 2023 and 2024}
+    %     \end{figure}
+    %     #3
+    % \end{frame}
+%     \begin{frame}{Distribution of #2 binned by Momenta}
+%     \newcommand{\colname}{#1}
+%     \begin{columns}
+%         \begin{column}{0.55 \linewidth}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[width=1.0\textwidth]{BinnedPlots/\colname_bin0.pdf}
+%                 \caption{Distribution of #2 in Bin0 \newline[0 $\geq$ Track\_p0 $\leq$ 20 GeV]}
+%             \end{figure}
+%         \end{column}
+%         \begin{column}{0.55 \linewidth}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[width=1.0\textwidth]{BinnedPlots/\colname_bin10.pdf+}
+%                 \caption{Distribution of #2 in Bin10 \newline[1 TeV $\geq$ Track\_p0 $\leq$ 20 TeV]}
+%             \end{figure}
+%         \end{column}
+%     \end{columns}
+% \end{frame}
+
+% \begin{frame}{Distribution of #2 binned by Momenta}
+%     \newcommand{\colname}{#1}
+%     \newcommand{\colwidth}{0.5 \linewidth}
+%     \newcommand{\figwidth}{0.83 \linewidth}
+%     \begin{columns}
+%         \begin{column}{\colwidth}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[width=\figwidth]{BinnedPlots/\colname_bin1.pdf}
+%                 \caption{Distribution of #2 in Bin1 \newline[20 Gev $\geq$ Track\_p0 $\leq$ 40 GeV]}
+%             \end{figure}
+%             \vspace{-0.65cm}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[width=\figwidth]{BinnedPlots/\colname_bin3.pdf}
+%                 \caption{Distribution of #2 in Bin3 \newline[60 GeV $\geq$ Track\_p0 $\leq$ 80 GeV]}
+%             \end{figure}
+%         \end{column}
+%         \begin{column}{\colwidth}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[width=\figwidth]{BinnedPlots/\colname_bin2.pdf}
+%                 \caption{Distribution of #2 in Bin2 \newline[40 GeV $\geq$ Track\_p0 $\leq$ 60 GeV]}
+%             \end{figure}
+%             \vspace{-0.65cm}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[width=\figwidth]{BinnedPlots/\colname_bin4.pdf}
+%                 \caption{Distribution of #2 in Bin4 \newline[80 GeV $\geq$ Track\_p0 $\leq$ 100 MeV]}
+%             \end{figure}
+%         \end{column}
+%     \end{columns}
+% \end{frame}
+
+% \begin{frame}{Distribution of #2 binned by Momenta}
+%     \newcommand{\colname}{#1}
+%     \newcommand{\colwidth}{0.5 \linewidth}
+%     \newcommand{\figwidth}{0.83 \linewidth}
+%     \begin{columns}
+%         \begin{column}{\colwidth}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[width=\figwidth]{BinnedPlots/\colname_bin5.pdf}
+%                 \caption{Distribution of #2 in Bin5 \newline[100 GeV $\geq$ Track\_p0 $\leq$ 200 GeV]}
+%             \end{figure}
+%             \vspace{-0.65cm}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[width=\figwidth]{BinnedPlots/\colname_bin7.pdf}
+%                 \caption{Distribution of #2 in Bin7 \newline[400 GeV $\geq$ Track\_p0 $\leq$ 600 GeV]}
+%             \end{figure}
+%         \end{column}
+%         \begin{column}{\colwidth}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[width=\figwidth]{BinnedPlots/\colname_bin6.pdf}
+%                 \caption{Distribution of #2 in Bin6 \newline[200 GeV $\geq$ Track\_p0 $\leq$ 400 GeV]}
+%             \end{figure}
+%             \vspace{-0.65cm}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[width=\figwidth]{BinnedPlots/\colname_bin8.pdf}
+%                 \caption{Distribution of #2 in Bin8 \newline[600 GeV $\geq$ Track\_p0 $\leq$ 800 GeV]}
+%             \end{figure}
+%         \end{column}
+%     \end{columns}
+% \end{frame}
+
+\begin{frame}{Distribution of #2 binned by Momenta}
+    \newcommand{\colname}{#1}
+    \begin{columns}
+        \begin{column}{0.55\linewidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{BinnedPlots/\colname_binned_2023.pdf}
+                \caption{Distribution of #2 in 2023 data colored by momentum bins}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.55\linewidth}
+            \begin{figure}
+                \includegraphics[width=\linewidth]{BinnedPlots/\colname_binned_2024.pdf}
+                \caption{Distribution of #2 in 2024 data colored by momentum bins}
+            \end{figure}
+        \end{column}
+    \end{columns}
+    #4
+\end{frame}
+}
+
+\makebinnedframes{Track_Chi2}{Track $\chi^2$}{
+    \vspace{-0.7cm}
+    \begin{itemize}
+        \item The Track-$\chi^2$ is lower in 2024 [Exacerbated in Track-$\chi^2$/DoF]
+        \item Idea was that the higher momenta in 2024 caused this.
+    \end{itemize}
+}{
+    \begin{itemize}
+        \item Agreement in bins ``looks'' good. Ratio suggests otherwise.
+        \item The agreement gets worse as the momentum increases.
+    \end{itemize}
+}
+% \makebinnedframes{Track_nDoF}{Track nDoF}{
+%     \begin{itemize}
+%         \item The Track-nDoF is higher in 2024
+%         \item Can be from the more central distribution of tracks in 2024
+%     \end{itemize}
+% }{
+%     \begin{itemize}
+%         \item Binning does not seem to provide much improvement
+%         \item Low momenta prefer lower nDoF, high momenta prefer higher nDoF
+%     \end{itemize}
+% }
+% \makebinnedframes{Track_Chi2perDoF}{Track $\chi^2$/DoF}{
+%     \begin{itemize}
+%         \item As seen previously, the lower tail in 2024 was attributed to the momenta difference in the background between the years.
+%     \end{itemize}
+% }{
+%     \begin{itemize}
+%         \item Agreement between 2024 and 2023 gets better in higher bins (modulo the last bin) 
+%         \item Agreement between bins better in 2024 than in 2023
+%     \end{itemize}
+% }
+\makebinnedframes{Track_charge}{Track charge}{
+\vspace{-0.5cm}    
+\begin{itemize}
+    \item The charge distribution is more positively charged in 2024
+    \item Primarily a result of the difference in background
+\end{itemize}}{
+    \begin{itemize}
+        \item Shows large variation between bins
+        \item In 2024, the positive charge is more pronounced in Tracks with momenta $\geq$ 400 GeV. [i.e more positively charged high momenta tracks]
+
+    \end{itemize}
+}
+% \makebinnedframes{longTracks}{longTracks}{
+%     \begin{itemize}
+%         \item More longTracks in 2024
+%     \end{itemize}
+% }{
+%     \begin{itemize}
+%         \item Higher number of longTracks in high momenta bins 
+%         \item Higher momenta tracks are more likely to be longTracks
+%     \end{itemize}
+% }
+% \makebinnedframes{Track_nLayers}{Track nLayers}{
+
+% }{
+%     \begin{itemize}
+%         \item High momenta tracks hits more layers.
+%     \end{itemize}
+% }
+\makebinnedframes{Track_ThetaX_0}{Track $\theta_x$}{
+    \begin{itemize}
+        \item Was one of the least understood variables in the previous talk.
+    \end{itemize}
+}{
+    \begin{itemize}
+        \item Agreement is still inexistent.
+        \item Seems to vary very significantly between bins.
+        % \item Gets worse with higher momenta
+    \end{itemize}
+}
+\makebinnedframes{Track_ThetaY_0}{Track $\theta_y$}{}{
+    \begin{itemize}
+        \item Agreement and variation between bins is similar to $\theta_x$
+        \item Maybe a Reweighing scheme might provide better results.
+    \end{itemize}
+}
+
+% \begin{frame}{Summary of Binned Analysis}
+    
+% \end{frame}
+
+\begin{subframe}{Some other Links}
+    \begin{itemize}
+        \item Link to Detailed Comparison Plots [\href{https://github.com/Pawan-Johnson/DQFollowUp_PPT/blob/main/build/main.pdf}{Link}]
+        \item Link to Previous Talk [\href{https://indico.cern.ch/event/1488927/}{Link}]
+        % \item Link to Faser-
+    \end{itemize}
+    
+\end{subframe}
