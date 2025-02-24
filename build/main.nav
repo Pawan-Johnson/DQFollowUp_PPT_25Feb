@@ -62,53 +62,43 @@
 \headcommand {\beamer@framepages {30}{30}}
 \headcommand {\slideentry {0}{0}{32}{31/31}{}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\slideentry {0}{0}{33}{32/32}{}{0}}
+\headcommand {\subslideentry {0}{0}{33}{\bsf@usenum {bsf@substartpage0.0.0.33}/\bsf@usenum {bsf@subendpage0.0.0.33}}{}{0}}
+\headcommand {\slideentry {0}{0}{34}{32/32}{}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {0}{0}{34}{33/33}{}{0}}
+\headcommand {\slideentry {0}{0}{35}{33/33}{}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {0}{0}{35}{34/34}{}{0}}
+\headcommand {\slideentry {0}{0}{36}{34/34}{}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\slideentry {0}{0}{36}{35/35}{}{0}}
+\headcommand {\slideentry {0}{0}{37}{35/35}{}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {0}{0}{37}{36/36}{}{0}}
+\headcommand {\slideentry {0}{0}{38}{36/36}{}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\subslideentry {0}{0}{38}{\bsf@usenum {bsf@substartpage0.0.0.38}/\bsf@usenum {bsf@subendpage0.0.0.38}}{}{0}}
-\headcommand {\slideentry {0}{0}{39}{37/37}{}{0}}
+\headcommand {\beamer@sectionpages {1}{36}}
+\headcommand {\beamer@subsectionpages {1}{36}}
+\headcommand {\sectionentry {1}{Backup}{37}{Backup}{0}}
+\headcommand {\slideentry {1}{0}{1}{37/37}{}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {0}{0}{40}{38/38}{}{0}}
-\headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {0}{0}{41}{39/39}{}{0}}
-\headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {0}{0}{42}{40/40}{}{0}}
-\headcommand {\beamer@framepages {40}{40}}
-\headcommand {\slideentry {0}{0}{43}{41/41}{}{0}}
-\headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@sectionpages {1}{41}}
-\headcommand {\beamer@subsectionpages {1}{41}}
-\headcommand {\sectionentry {1}{Backup}{42}{Backup}{0}}
-\headcommand {\slideentry {1}{0}{1}{42/42}{}{0}}
-\headcommand {\beamer@framepages {42}{42}}
-\headcommand {\gdef \insertmainframenumber {42}}
+\headcommand {\gdef \insertmainframenumber {37}}
 \headcommand {\partentry {\translate {Appendix}}{1}}
-\headcommand {\beamer@partpages {1}{42}}
-\headcommand {\beamer@sectionpages {42}{42}}
-\headcommand {\beamer@subsectionpages {42}{42}}
-\headcommand {\beamer@appendixpages {43}}
-\headcommand {\beamer@partpages {43}{42}}
-\headcommand {\beamer@subsectionpages {43}{42}}
-\headcommand {\beamer@sectionpages {43}{42}}
-\headcommand {\beamer@documentpages {42}}
-\headcommand {\beamer@framepages {43}{43}}
-\headcommand {\beamer@framepages {44}{44}}
-\headcommand {\bsf@partpages {45}{44}{43}{42}}
-\headcommand {\bsf@sectionpages {45}{44}{42}{42}}
-\headcommand {\bsf@subsectionpages {43}{44}{1}{42}}
-\headcommand {\bsf@documentpages {44}}
+\headcommand {\beamer@partpages {1}{37}}
+\headcommand {\beamer@sectionpages {37}{37}}
+\headcommand {\beamer@subsectionpages {37}{37}}
+\headcommand {\beamer@appendixpages {38}}
+\headcommand {\beamer@partpages {38}{37}}
+\headcommand {\beamer@subsectionpages {38}{37}}
+\headcommand {\beamer@sectionpages {38}{37}}
+\headcommand {\beamer@documentpages {37}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\bsf@partpages {40}{39}{38}{37}}
+\headcommand {\bsf@sectionpages {40}{39}{37}{37}}
+\headcommand {\bsf@subsectionpages {38}{39}{1}{37}}
+\headcommand {\bsf@documentpages {39}}
 \headcommand {\bsf@disablenaventries }
-\headcommand {\beamer@partpages {43}{44}}
-\headcommand {\beamer@subsectionpages {43}{44}}
-\headcommand {\beamer@sectionpages {43}{44}}
-\headcommand {\beamer@documentpages {44}}
-\headcommand {\gdef \inserttotalframenumber {44}}
-\headcommand {\def \inserttotalframenumber {42}}
-\headcommand {\def \inserttotalframenumberwithsub {44}}
+\headcommand {\beamer@partpages {38}{39}}
+\headcommand {\beamer@subsectionpages {38}{39}}
+\headcommand {\beamer@sectionpages {38}{39}}
+\headcommand {\beamer@documentpages {39}}
+\headcommand {\gdef \inserttotalframenumber {39}}
+\headcommand {\def \inserttotalframenumber {37}}
+\headcommand {\def \inserttotalframenumberwithsub {39}}

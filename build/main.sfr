@@ -44,16 +44,17 @@
     \end{columns}
 \end{frame}
 
-\bsfrestore{0}{0}{0}{37}
+\bsfrestore{0}{0}{0}{32}
 \begin{frame}{Some other Links}
     \begin{itemize}
         \item Link to Detailed Comparison Plots [\href{https://github.com/Pawan-Johnson/DQFollowUp_PPT/blob/main/build/main.pdf}{Link}]
         \item Link to Previous Talk [\href{https://indico.cern.ch/event/1488927/}{Link}]
+        \item Link to Poblematic Yields Sheet  \href{https://docs.google.com/spreadsheets/d/1nnYFcmhVieSHI5XAVhPiW1K6CoGYGxv2YPchwL0sqH4/edit?usp=sharing}{[Link to Sheet]}
         % \item Link to Faser-
     \end{itemize}
 
 \end{frame}
 
-\bsfrestoresection{0}{42}
-\bsfrestorepart{0}{43}
+\bsfrestoresection{0}{37}
+\bsfrestorepart{0}{38}
 \endinput
