@@ -1552,68 +1552,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT ./chapters/chapter1.tex
 INPUT chapters/chapter1.tex
 INPUT ./chapters/chapter1.tex
 INPUT chapters/chapter1.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT ./ModuleLevelPlots/Positions_st0_module0.pdf
-INPUT ./ModuleLevelPlots/Positions_st0_module0.pdf
-INPUT ./ModuleLevelPlots/Positions_st0_module0.pdf
-INPUT ./ModuleLevelPlots/Positions_st0_module0.pdf
-INPUT ./ModuleLevelPlots/Positions_st0_module0.pdf
-INPUT ./assets/image.png
-INPUT ./assets/image.png
-INPUT ./assets/image.png
-INPUT ./assets/image.png
-INPUT ./assets/image.png
-INPUT ./ModuleLevelPlots/Positions_st1_module0.pdf
-INPUT ./ModuleLevelPlots/Positions_st1_module0.pdf
-INPUT ./ModuleLevelPlots/Positions_st1_module0.pdf
-INPUT ./ModuleLevelPlots/Positions_st1_module0.pdf
-INPUT ./ModuleLevelPlots/Positions_st1_module0.pdf
-INPUT ./assets/image.png
-INPUT ./assets/image.png
-INPUT ./assets/image.png
-INPUT ./assets/image.png
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2023.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2023.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2023.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2023.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2023.pdf
-INPUT ./assets/ModuleThumbnail.png
-INPUT ./assets/ModuleThumbnail.png
-INPUT ./assets/ModuleThumbnail.png
-INPUT ./assets/ModuleThumbnail.png
-INPUT ./assets/ModuleThumbnail.png
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2024.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2024.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2024.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2024.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2024.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_ratio.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_ratio.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_ratio.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_ratio.pdf
-INPUT ./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_ratio.pdf
-INPUT ./ModuleLevelPlots/Track_charge_st0_2023.pdf
-INPUT ./ModuleLevelPlots/Track_charge_st0_2023.pdf
-INPUT ./ModuleLevelPlots/Track_charge_st0_2023.pdf
-INPUT ./ModuleLevelPlots/Track_charge_st0_2023.pdf
-INPUT ./ModuleLevelPlots/Track_charge_st0_2023.pdf
-INPUT ./ModuleLevelPlots/Track_charge_st0_2024.pdf
-INPUT ./ModuleLevelPlots/Track_charge_st0_2024.pdf
-INPUT ./ModuleLevelPlots/Track_charge_st0_2024.pdf
-INPUT ./ModuleLevelPlots/Track_charge_st0_2024.pdf
-INPUT ./ModuleLevelPlots/Track_charge_st0_2024.pdf
 INPUT ./ModuleLevelPlots/Track_p0_linear_st0_2023.pdf
 INPUT ./ModuleLevelPlots/Track_p0_linear_st0_2023.pdf
 INPUT ./ModuleLevelPlots/Track_p0_linear_st0_2023.pdf
@@ -1624,10 +1568,21 @@ INPUT ./ModuleLevelPlots/Track_p0_linear_st0_2024.pdf
 INPUT ./ModuleLevelPlots/Track_p0_linear_st0_2024.pdf
 INPUT ./ModuleLevelPlots/Track_p0_linear_st0_2024.pdf
 INPUT ./ModuleLevelPlots/Track_p0_linear_st0_2024.pdf
+INPUT ./ModuleLevelPlots/Track_charge_st0_2023.pdf
+INPUT ./ModuleLevelPlots/Track_charge_st0_2023.pdf
+INPUT ./ModuleLevelPlots/Track_charge_st0_2023.pdf
+INPUT ./ModuleLevelPlots/Track_charge_st0_2023.pdf
+INPUT ./ModuleLevelPlots/Track_charge_st0_2023.pdf
+INPUT ./ModuleLevelPlots/Track_charge_st0_2024.pdf
+INPUT ./ModuleLevelPlots/Track_charge_st0_2024.pdf
+INPUT ./ModuleLevelPlots/Track_charge_st0_2024.pdf
+INPUT ./ModuleLevelPlots/Track_charge_st0_2024.pdf
+INPUT ./ModuleLevelPlots/Track_charge_st0_2024.pdf
 INPUT ./chapters/chapter2.tex
 INPUT chapters/chapter2.tex
 INPUT ./chapters/chapter2.tex
 INPUT chapters/chapter2.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT ./assets/BCIDEfficiency_p0011.pdf
 INPUT ./assets/BCIDEfficiency_p0011.pdf
 INPUT ./assets/BCIDEfficiency_p0011.pdf
@@ -1728,21 +1683,6 @@ INPUT ./RunwisePlots/longTracks_normalisedfrom2_runwise.pdf
 INPUT RunwisePlots/longTracks_normalisedfrom2_runwise.pdf
 INPUT ./RunwisePlots/longTracks_normalisedfrom2_runwise.pdf
 INPUT ./RunwisePlots/longTracks_normalisedfrom2_runwise.pdf
-INPUT ./RunwisePlots/Track_Chi2_runwise.pdf
-INPUT ./RunwisePlots/Track_Chi2_runwise.pdf
-INPUT ./RunwisePlots/Track_Chi2_runwise.pdf
-INPUT ./RunwisePlots/Track_Chi2_runwise.pdf
-INPUT ./RunwisePlots/Track_Chi2_runwise.pdf
-INPUT ./RunwisePlots/Track_nDoF_runwise.pdf
-INPUT ./RunwisePlots/Track_nDoF_runwise.pdf
-INPUT ./RunwisePlots/Track_nDoF_runwise.pdf
-INPUT ./RunwisePlots/Track_nDoF_runwise.pdf
-INPUT ./RunwisePlots/Track_nDoF_runwise.pdf
-INPUT ./RunwisePlots/Track_Chi2perDoF_runwise.pdf
-INPUT ./RunwisePlots/Track_Chi2perDoF_runwise.pdf
-INPUT ./RunwisePlots/Track_Chi2perDoF_runwise.pdf
-INPUT ./RunwisePlots/Track_Chi2perDoF_runwise.pdf
-INPUT ./RunwisePlots/Track_Chi2perDoF_runwise.pdf
 INPUT ./chapters/chapter3.tex
 INPUT chapters/chapter3.tex
 INPUT ./chapters/chapter3.tex
@@ -1770,36 +1710,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi12.tfm
-INPUT ./BinnedPlots/Track_charge_binned_2023.pdf
-INPUT ./BinnedPlots/Track_charge_binned_2023.pdf
-INPUT BinnedPlots/Track_charge_binned_2023.pdf
-INPUT ./BinnedPlots/Track_charge_binned_2023.pdf
-INPUT ./BinnedPlots/Track_charge_binned_2023.pdf
-INPUT ./BinnedPlots/Track_charge_binned_2024.pdf
-INPUT ./BinnedPlots/Track_charge_binned_2024.pdf
-INPUT BinnedPlots/Track_charge_binned_2024.pdf
-INPUT ./BinnedPlots/Track_charge_binned_2024.pdf
-INPUT ./BinnedPlots/Track_charge_binned_2024.pdf
-INPUT ./BinnedPlots/Track_ThetaX_0_binned_2023.pdf
-INPUT ./BinnedPlots/Track_ThetaX_0_binned_2023.pdf
-INPUT BinnedPlots/Track_ThetaX_0_binned_2023.pdf
-INPUT ./BinnedPlots/Track_ThetaX_0_binned_2023.pdf
-INPUT ./BinnedPlots/Track_ThetaX_0_binned_2023.pdf
-INPUT ./BinnedPlots/Track_ThetaX_0_binned_2024.pdf
-INPUT ./BinnedPlots/Track_ThetaX_0_binned_2024.pdf
-INPUT BinnedPlots/Track_ThetaX_0_binned_2024.pdf
-INPUT ./BinnedPlots/Track_ThetaX_0_binned_2024.pdf
-INPUT ./BinnedPlots/Track_ThetaX_0_binned_2024.pdf
-INPUT ./BinnedPlots/Track_ThetaY_0_binned_2023.pdf
-INPUT ./BinnedPlots/Track_ThetaY_0_binned_2023.pdf
-INPUT BinnedPlots/Track_ThetaY_0_binned_2023.pdf
-INPUT ./BinnedPlots/Track_ThetaY_0_binned_2023.pdf
-INPUT ./BinnedPlots/Track_ThetaY_0_binned_2023.pdf
-INPUT ./BinnedPlots/Track_ThetaY_0_binned_2024.pdf
-INPUT ./BinnedPlots/Track_ThetaY_0_binned_2024.pdf
-INPUT BinnedPlots/Track_ThetaY_0_binned_2024.pdf
-INPUT ./BinnedPlots/Track_ThetaY_0_binned_2024.pdf
-INPUT ./BinnedPlots/Track_ThetaY_0_binned_2024.pdf
 INPUT ./chapters/chapter4.tex
 INPUT chapters/chapter4.tex
 INPUT ./chapters/chapter4.tex
@@ -1834,26 +1744,6 @@ INPUT ./ReweighedPlots/Track_charge_Reweighted.pdf
 INPUT ./ReweighedPlots/Track_charge_Reweighted.pdf
 INPUT ./ReweighedPlots/Track_charge_Reweighted.pdf
 INPUT ./ReweighedPlots/Track_charge_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_x0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_x0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_x0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_x0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_x0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_ThetaX_0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_ThetaX_0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_ThetaX_0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_ThetaX_0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_ThetaX_0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_y0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_y0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_y0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_y0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_y0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_ThetaY_0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_ThetaY_0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_ThetaY_0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_ThetaY_0_Reweighted.pdf
-INPUT ./ReweighedPlots/Track_ThetaY_0_Reweighted.pdf
 INPUT build/main.sfr
 INPUT build/main.sfr
 INPUT build/main.sfr
@@ -1868,16 +1758,11 @@ INPUT build/main.out
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb

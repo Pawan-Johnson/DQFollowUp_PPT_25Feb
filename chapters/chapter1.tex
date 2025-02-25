@@ -1,24 +1,24 @@
-\begin{frame}{Module Level DQ Checks}
-    \begin{itemize}
-        \item Some new variables were introduced in the 2024 data
-        \begin{itemize}
-            \item module\_eta0, module\_phi0
-            \item which describes the first tracking module hit by the particle
-        \end{itemize}
-        \item Idea is to look at the track variables as a function of this
-        \begin{itemize}
-            \item Since, variables not present in 2023 data
-            \item Eta0 and Phi0 are estimated using Track\_x0 and Track\_y0
-        \end{itemize}
-        % \item Unfortunately, 8 modules across 2 year = 16 Histograms 
-        % \begin{itemize}
-        %     \item Hard to visualize, so we do a module level comparison
-        %     \item More detailed plots available in the backup/repo
-        % \end{itemize}
+% \begin{frame}{Module Level DQ Checks}
+%     \begin{itemize}
+%         \item Some new variables were introduced in the 2024 data
+%         \begin{itemize}
+%             \item module\_eta0, module\_phi0
+%             \item which describes the first tracking module hit by the particle
+%         \end{itemize}
+%         \item Idea is to look at the track variables as a function of this
+%         \begin{itemize}
+%             \item Since, variables not present in 2023 data
+%             \item Eta0 and Phi0 are estimated using Track\_x0 and Track\_y0
+%         \end{itemize}
+%         % \item Unfortunately, 8 modules across 2 year = 16 Histograms 
+%         % \begin{itemize}
+%         %     \item Hard to visualize, so we do a module level comparison
+%         %     \item More detailed plots available in the backup/repo
+%         % \end{itemize}
         
 
-    \end{itemize}
-\end{frame}
+%     \end{itemize}
+% \end{frame}
 
 \begin{frame}{Module Numbering Schematic }
     \begin{figure}
@@ -126,86 +126,84 @@
 %     \end{itemize}
 % \end{frame}
 
-\begin{frame}{Revisiting Positions at Station 1}
-    \begin{columns}
-        \begin{column}{1.2\linewidth}
-            \begin{figure}
-                \centering
-                \includegraphics[height=0.8\textheight]{./ModuleLevelPlots/Positions_st0_module0.pdf}
-                \caption{500 Points at Station 1 colored by Module number (estimated) at Station 1 for 2024 data}
-            \end{figure}
-        \end{column}
-        \begin{column}{0.2\linewidth}
-            \begin{figure}
-                \hspace{-7cm}\includegraphics[scale=0.25]{./assets/image.png}
-            \end{figure}
-        \end{column}
-    \end{columns}
-\end{frame}
+% \begin{frame}{Revisiting Positions at Station 1}
+%     \begin{columns}
+%         \begin{column}{1.2\linewidth}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[height=0.8\textheight]{./ModuleLevelPlots/Positions_st0_module0.pdf}
+%                 \caption{500 Points at Station 1 colored by Module number (estimated) at Station 1 for 2024 data}
+%             \end{figure}
+%         \end{column}
+%         \begin{column}{0.2\linewidth}
+%             \begin{figure}
+%                 \hspace{-7cm}\includegraphics[scale=0.25]{./assets/image.png}
+%             \end{figure}
+%         \end{column}
+%     \end{columns}
+% \end{frame}
 
-\begin{frame}{Where do they end up in Station 3?}
-    \begin{columns}
-        \begin{column}{1.2\linewidth}
-            \begin{figure}
-                \centering
-                \includegraphics[height=0.8\textheight]{./ModuleLevelPlots/Positions_st1_module0.pdf}
-                \caption{500 Points at Station 3 colored by Module number at Station 1 for 2024 data [Same tracks as previous slide]}
-            \end{figure}
-        \end{column}
-        \begin{column}{0.2\linewidth}
-            \begin{figure}
-                \hspace{-7cm}\includegraphics[scale=0.25]{./assets/image.png}
-            \end{figure}
-        \end{column}
-    \end{columns}
-\end{frame}
+% \begin{frame}{Where do they end up in Station 3?}
+%     \begin{columns}
+%         \begin{column}{1.2\linewidth}
+%             \begin{figure}
+%                 \centering
+%                 \includegraphics[height=0.8\textheight]{./ModuleLevelPlots/Positions_st1_module0.pdf}
+%                 \caption{500 Points at Station 3 colored by Module number at Station 1 for 2024 data [Same tracks as previous slide]}
+%             \end{figure}
+%         \end{column}
+%         \begin{column}{0.2\linewidth}
+%             \begin{figure}
+%                 \hspace{-7cm}\includegraphics[scale=0.25]{./assets/image.png}
+%             \end{figure}
+%         \end{column}
+%     \end{columns}
+% \end{frame}
 
-\begin{frame}{Transfer Heatmap in 2023}
-    \begin{columns}
-        \begin{column}{0.85\linewidth}
-            \begin{figure}
-                \includegraphics[width=0.9\linewidth]{./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2023.pdf}
-                \caption{Probability of Transfer from Initial Module (at Station 1) to Final Module (at Station 2) based on 2023 Data}
-            \end{figure}
-        \end{column}
-        \begin{column}{0.2\linewidth}
-            \begin{figure}
-                \includegraphics[width=\linewidth]{./assets/ModuleThumbnail.png}
-            \end{figure}
-        \end{column}
-    \end{columns}
-    \begin{itemize}
-        \small
-        \item Most probable transfer is to the same module followed by adjacent.
-        \item Module 2,3,6,7 (central) are more likely to transfer to another central module. 
-    \end{itemize}
-\end{frame}
+% \begin{subframe}{Transfer Heatmap in 2023}
+%     \begin{columns}
+%         \begin{column}{0.85\linewidth}
+%             \begin{figure}
+%                 \includegraphics[width=0.9\linewidth]{./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2023.pdf}
+%                 \caption{Probability of Transfer from Initial Module (at Station 1) to Final Module (at Station 2) based on 2023 Data}
+%             \end{figure}
+%         \end{column}
+%         \begin{column}{0.2\linewidth}
+%             \begin{figure}
+%                 \includegraphics[width=\linewidth]{./assets/ModuleThumbnail.png}
+%             \end{figure}
+%         \end{column}
+%     \end{columns}
+%     \begin{itemize}
+%         \small
+%         \item Most probable transfer is to the same module followed by adjacent.
+%         \item Module 2,3,6,7 (central) are more likely to transfer to another central module. 
+%     \end{itemize}
+% \end{subframe}
 
-\begin{frame}{Transfer Heatmap in 2024}
-    \begin{figure}
-        \includegraphics[width=0.8\linewidth]{./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2024.pdf}
-        \caption{Probability of Transfer from Initial Module (at Station 1) to Final Module (at Station 2) based on 2024 data}
-    \end{figure}
-    \begin{itemize}
-        \small
-        \item Much higher Probability of Transfer to the same module
-        \item In general less module transfers in 2024. [Higher Momentum Tracks]
-    \end{itemize}
-\end{frame}
+% \begin{subframe}{Transfer Heatmap in 2024}
+%     \begin{figure}
+%         \includegraphics[width=0.8\linewidth]{./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_2024.pdf}
+%         \caption{Probability of Transfer from Initial Module (at Station 1) to Final Module (at Station 2) based on 2024 data}
+%     \end{figure}
+%     \begin{itemize}
+%         \small
+%         \item Much higher Probability of Transfer to the same module
+%         \item In general less module transfers in 2024. [Higher Momentum Tracks]
+%     \end{itemize}
+% \end{subframe}
 
-\begin{frame}{Transfer Heatmap Ratio }
-    \begin{figure}
-        \includegraphics[width=0.86\linewidth]{./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_ratio.pdf}
-        \caption{Ratio of Probability of Transfer from Initial Module (at Station 1) to Final Module (at Station 2) }
-    \end{figure}
-    \begin{itemize}
-        \small
-        \item 2024 has a higher probability of transfer to the same module
-        \item Module 3 and 6 seem to be transferring into 8 more [Why?]
-    \end{itemize}
-
-\end{frame}
-
+% \begin{subframe}{Transfer Heatmap Ratio }
+%     \begin{figure}
+%         \includegraphics[width=0.86\linewidth]{./ModuleLevelPlots/st0_module_number vs st1_module_number_prob_ratio.pdf}
+%         \caption{Ratio of Probability of Transfer from Initial Module (at Station 1) to Final Module (at Station 2) }
+%     \end{figure}
+%     \begin{itemize}
+%         \small
+%         \item 2024 has a higher probability of transfer to the same module
+%         \item Module 3 and 6 seem to be transferring into 8 more [Why?]
+%     \end{itemize}
+% \end{subframe}
 
 % \begin{frame}{Transfer Histograms}
 %     \begin{figure}
@@ -252,9 +250,11 @@
 \begin{frame}{Modulewise Track Parameters}
     
     \begin{itemize}
-        \item The Track Charge and Track Momenta shows a significant difference in the background distribution between each module
-        \item Again, means cannot get a one to one correspondance between the years or modules.
-        \item Although modules tend to group together for some parameters.
+        \item The module\_eta0/phi0 variables exist only in the 2024 data
+        \item For uniformity we define the module numbers using the x and y positions for both the 2023 and 2024 data
+        \item The agreement is not good, both module-wise or year-wise.
+        \item Possibly from the Momenta being different between them
+        \item Although modules tend to group together for some parameters based on their relative position.
     \end{itemize}
     % Recap of the Track Parameters:
     % \begin{itemize}
@@ -270,9 +270,11 @@
     % \end{itemize}
     \vspace{0.3 cm}
     \small{    
-    Note: Unfortunately, 8 modules across 2 year = 16 Histograms \\
+    \textbf{Note:} Unfortunately, 8 modules across 2 year = 16 Histograms \\
     An year wise for each module would be too long.
-    So we do a module level comparison, year wise plots available in the backup.
+    So we do a module level comparison, year wise plots available in the slides linked to in backup.\\ 
+    
+    Module transfer plots are also available in the detailed slides in the backup.  
     }
     % \begin{itemize}
     %     \item Hard to visualize, so we do a module level comparison
@@ -354,34 +356,6 @@
 %     \end{itemize}
 % \end{frame}
 
-% \makemodulewiseframes{Track_charge}{Distribution of Track Charge Modulewise}
-\begin{frame}{Distribution Track Charge Modulewise}
-    \newcommand{\colname}{Track_charge}
-    \begin{columns}
-        \begin{column}{0.6\linewidth}
-            \begin{figure}
-                \centering
-                \includegraphics[width=\linewidth]{./ModuleLevelPlots/\colname_st0_2023.pdf}
-            \end{figure}
-        \end{column}
-        \begin{column}{0.6\linewidth}
-            \begin{figure}
-                \centering
-                \includegraphics[width=\linewidth]{./ModuleLevelPlots/\colname_st0_2024.pdf}
-            \end{figure}
-        \end{column}
-    \end{columns}
-
-    \begin{itemize}
-        \small
-        \item 2023 has more negatively charged tracks
-        \item In 2023 Module 1,2 seem to get more positively charged tracks
-        \item In 2024 Module 3,6,7,5 seem to get more positively charged tracks
-        \begin{itemize}
-            \item Suggests, positive tracks concentrated in the bottom right?
-        \end{itemize}
-    \end{itemize}
-\end{frame}
 
 % \makemodulewiseframes{Track_Chi2}{Track Chi2 Modulewise}
 % \begin{frame}{Track Chi2 Modulewise}
@@ -550,7 +524,9 @@
 
     \begin{itemize}
         \small
-        \item Again seem to split into two groups in 2024
+        \item Distribution different across modules and years 
+        \item Leading to lack of agreement in other parameters
+        \item Modules tend to group together
         \begin{itemize}
             \item Higher Momenta Modules : 3, 4, 5, 6  [Modules with y $\leq$ 0]
             \item Lower Momenta Modules \ : 2, 1, 8, 7 [Modules with y $\geq$ 0]
@@ -558,6 +534,35 @@
     \end{itemize}
 \end{frame}
 
+% \makemodulewiseframes{Track_charge}{Distribution of Track Charge Modulewise}
+\begin{frame}{Distribution Track Charge Modulewise}
+    \newcommand{\colname}{Track_charge}
+    \begin{columns}
+        \begin{column}{0.6\linewidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{./ModuleLevelPlots/\colname_st0_2023.pdf}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.6\linewidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{./ModuleLevelPlots/\colname_st0_2024.pdf}
+            \end{figure}
+        \end{column}
+    \end{columns}
+
+    \begin{itemize}
+        \small
+        \item Track Charge distribution is different across modules and years
+        \item 2024 has more positively charged tracks than 2023 
+        \item In 2023 Module 1,2 seem to get more positively charged tracks
+        \item In 2024 Module 3,6,7,5 seem to get more positively charged tracks
+        % \begin{itemize}
+        %     \item Suggests, positive tracks concentrated in the bottom right?
+        % \end{itemize}
+    \end{itemize}
+\end{frame}
 % \begin{frame}{Summary of Module Level Analysis}
     
 % \end{frame}

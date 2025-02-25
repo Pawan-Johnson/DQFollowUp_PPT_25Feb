@@ -1,0 +1,18 @@
+
+Hi Pawan, I am looking at this on the train back from Edinburgh.  It is indeed still very long for a 5 minute talk, esp. as I see the agenda is quite packed.
+
+- [DONE] You could try to combine p2 (previous) and p4 (this work) into one slide removing some of the detail.  
+
+- [DONE] You can have p3 there but probably not go through the details
+
+- [DONE] I would move p5 to back up / combine with p6
+
+- [DONE] Given the time constraints, I would move p7-11 to back up since we don't learn much from them and just add a line on p6 that these are in the backup.
+
+- [DONE] I would move p26 to backup and a line on p24 that there are more plots in the backup. 
+
+- [Partly Done, Merged the two sections] Given you seem to have got the reweighting working (which is great!) I don't think you need the binned momentum plots so I would move p27-32 to backup and add a line somewhere on p32 saying they are there.  Also remove that from the conclusion.  
+
+- You could combine p32/33 into one.
+
+This should bring you down to 20 slides, which is still long but you can go through some of the slides of plots more quickly. 

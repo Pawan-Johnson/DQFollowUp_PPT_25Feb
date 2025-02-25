@@ -44,7 +44,7 @@
     \end{columns}
 \end{frame}
 
-\bsfrestore{0}{0}{0}{32}
+\bsfrestore{0}{0}{0}{21}
 \begin{frame}{Some other Links}
     \begin{itemize}
         \item Link to Detailed Comparison Plots [\href{https://github.com/Pawan-Johnson/DQFollowUp_PPT/blob/main/build/main.pdf}{Link}]
@@ -55,6 +55,6 @@
 
 \end{frame}
 
-\bsfrestoresection{0}{37}
-\bsfrestorepart{0}{38}
+\bsfrestoresection{0}{24}
+\bsfrestorepart{0}{25}
 \endinput
